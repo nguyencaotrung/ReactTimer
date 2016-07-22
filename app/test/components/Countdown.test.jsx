@@ -31,7 +31,7 @@ describe('Countdown',() => {
 			setTimeout(()=>{
 				expect(countdown.state.count).toBe(0);
 				done();
-			},4001)
+			},1001)
 		});
 	});
 });
